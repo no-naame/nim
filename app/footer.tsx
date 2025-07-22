@@ -17,6 +17,11 @@ const THEMES_OPTIONS = [
     icon: <MoonIcon className="h-4 w-4" />,
   },
   {
+    label: 'Periwinkle',
+    id: 'periwinkle',
+    icon: <div className="h-4 w-4 rounded-full bg-[#D2DEEF] border border-zinc-300" />,
+  },
+  {
     label: 'System',
     id: 'system',
     icon: <MonitorIcon className="h-4 w-4" />,

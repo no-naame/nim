@@ -2,6 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Periwinkle theme */
+.periwinkle {
+  --color-background: #D2DEEF;
+  --color-foreground: #111111;
+  --color-muted: #B8C9E0;
+  --color-muted-foreground: #333333;
+  --color-border: #A8BDD6;
+  --color-input: #C4D5EA;
+  --color-ring: #9BB4D1;
+  --color-primary: #111111;
+  --color-primary-foreground: #D2DEEF;
+  --color-secondary: #B8C9E0;
+  --color-secondary-foreground: #111111;
+  --color-accent: #A8BDD6;
+  --color-accent-foreground: #111111;
+}
+
+.periwinkle {
+  background-color: #D2DEEF;
+  color: #111111;
+}
+
+.periwinkle .bg-white {
+  background-color: #E8F0F8 !important;
+}
+
+.periwinkle .bg-zinc-50 {
+  background-color: #E8F0F8 !important;
+}
+
+.periwinkle .bg-zinc-100 {
+  background-color: #D2DEEF !important;
+}
+
+.periwinkle .bg-zinc-950 {
+  background-color: #111111 !important;
+}
+
+.periwinkle .text-black {
+  color: #111111 !important;
+}
+
+.periwinkle .text-white {
+  color: #111111 !important;
+}
+
+.periwinkle .text-zinc-900 {
+  color: #111111 !important;
+}
+
+.periwinkle .text-zinc-600 {
+  color: #444444 !important;
+}
+
+.periwinkle .text-zinc-500 {
+  color: #555555 !important;
+}
+
+.periwinkle .text-zinc-400 {
+  color: #666666 !important;
+}
+
+.periwinkle .border-zinc-100 {
+  border-color: #A8BDD6 !important;
+}
+
+.periwinkle .border-zinc-800 {
+  border-color: #333333 !important;
+}
+
+.periwinkle .bg-zinc-300\/30 {
+  background-color: rgba(168, 189, 214, 0.3) !important;
+}
+
+.periwinkle .bg-zinc-600\/30 {
+  background-color: rgba(51, 51, 51, 0.3) !important;
+}
+
+.periwinkle .ring-zinc-200\/50 {
+  --tw-ring-color: rgba(168, 189, 214, 0.5) !important;
+}
+
+.periwinkle .ring-zinc-800\/50 {
+  --tw-ring-color: rgba(51, 51, 51, 0.5) !important;
+}
+
+.periwinkle .bg-zinc-50\/40 {
+  background-color: rgba(232, 240, 248, 0.4) !important;
+}
+
+.periwinkle .bg-zinc-950\/40 {
+  background-color: rgba(17, 17, 17, 0.4) !important;
+}
+
+.periwinkle .hover\:bg-zinc-950:hover {
+  background-color: #333333 !important;
+}
+
+.periwinkle .hover\:text-zinc-50:hover {
+  color: #D2DEEF !important;
+}
+
+.periwinkle .bg-zinc-800 {
+  background-color: #333333 !important;
+}
+
+.periwinkle .text-zinc-100 {
+  color: #111111 !important;
+}
+
+.periwinkle .text-zinc-50 {
+  color: #111111 !important;
+}
+
+.periwinkle .bg-zinc-900\/80 {
+  background-color: rgba(51, 51, 51, 0.8) !important;
+}
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
