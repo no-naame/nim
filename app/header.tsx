@@ -34,16 +34,3 @@ export function Header() {
     </header>
   )
 }
-        <TextEffect
-          as="p"
-          preset="fade"
-          per="char"
-          className="text-zinc-600 dark:text-zinc-500"
-          delay={0.5}
-        >
-          Design Engineer
-        </TextEffect>
-      </div>
-    </header>
-  )
-}
